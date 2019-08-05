@@ -5,6 +5,7 @@ function woo_change_order_received_text( $str, $order ) {
     $new_str = $str . '<br>
     Lascia una recensione sul servizio offerto.
 <div class="rating" data-rate-value=6></div>
+<script type="text/javascript" src="/rater.js" />
 <script>
 $(".rating").rate();
 
